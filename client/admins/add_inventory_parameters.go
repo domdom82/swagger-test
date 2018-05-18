@@ -17,7 +17,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"swagger-test/models"
+	"github.com/domdom82/swagger-test/models"
 )
 
 // NewAddInventoryParams creates a new AddInventoryParams object

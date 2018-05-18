@@ -11,8 +11,8 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"swagger-test/client/admins"
-	"swagger-test/client/developers"
+	"github.com/domdom82/swagger-test/client/admins"
+	"github.com/domdom82/swagger-test/client/developers"
 )
 
 // Default simple inventory HTTP client.

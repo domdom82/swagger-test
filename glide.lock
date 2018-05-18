@@ -1,0 +1,67 @@
+hash: 97cd5d354cea44ddbdbb59c93faca626b9d1a672efe0358f1fdc2bead5a156e2
+updated: 2018-05-18T12:55:42.502218+02:00
+imports:
+- name: github.com/asaskevich/govalidator
+  version: 7d2e70ef918f16bd6455529af38304d6d025c952
+- name: github.com/go-openapi/analysis
+  version: 863ac7f90e00e88e507095639a8457bbbf3c2ec9
+- name: github.com/go-openapi/errors
+  version: b2b2befaf267d082d779bcef52d682a47c779517
+- name: github.com/go-openapi/jsonpointer
+  version: 3a0015ad55fa9873f41605d3e8f28cd279c32ab2
+- name: github.com/go-openapi/jsonreference
+  version: 3fb327e6747da3043567ee86abd02bb6376b6be2
+- name: github.com/go-openapi/loads
+  version: 2a2b323bab96e6b1fdee110e57d959322446e9c9
+- name: github.com/go-openapi/runtime
+  version: c0cae94704c76c8643896d8054080f91e920105b
+  subpackages:
+  - client
+  - logger
+  - middleware
+  - middleware/denco
+  - middleware/header
+  - middleware/untyped
+  - security
+- name: github.com/go-openapi/spec
+  version: bcff419492eeeb01f76e77d2ebc714dc97b607f5
+- name: github.com/go-openapi/strfmt
+  version: 481808443b00a14745fada967cb5eeff0f9b1df2
+- name: github.com/go-openapi/swag
+  version: 811b1089cde9dad18d4d0c2d09fbdbf28dbd27a5
+- name: github.com/go-openapi/validate
+  version: 9286f6d0e5c1ffc7cf2bda1d59291dc3c4f2f828
+- name: github.com/mailru/easyjson
+  version: 8b799c424f57fa123fc63a99d6383bc6e4c02578
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
+- name: github.com/mitchellh/mapstructure
+  version: bb74f1db0675b241733089d5a1faa5dd8b0ef57b
+- name: github.com/PuerkitoBio/purell
+  version: 975f53781597ed779763b7b65566e74c4004d8de
+- name: github.com/PuerkitoBio/urlesc
+  version: de5bf2ad457846296e2031421a34e2568e304e35
+- name: golang.org/x/net
+  version: 2491c5de3490fced2f6cff376127c667efeed857
+  subpackages:
+  - context
+  - context/ctxhttp
+  - idna
+- name: golang.org/x/text
+  version: 5c1cf69b5978e5a34c5f9ba09a83e56acc4b7877
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+  - width
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+- name: gopkg.in/yaml.v2
+  version: 7f97868eec74b32b0982dd158a51a446d1da7eb5
+testImports: []

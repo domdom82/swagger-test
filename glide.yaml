@@ -10,6 +10,3 @@ import:
 - package: golang.org/x/net
   subpackages:
   - context
-- package: swagger-test/client/admins
-- package: swagger-test/client/developers
-- package: swagger-test/models
