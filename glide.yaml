@@ -1,0 +1,15 @@
+package: github.com/domdom82/swagger-test
+import:
+- package: github.com/go-openapi/errors
+- package: github.com/go-openapi/runtime
+  subpackages:
+  - client
+- package: github.com/go-openapi/strfmt
+- package: github.com/go-openapi/swag
+- package: github.com/go-openapi/validate
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: swagger-test/client/admins
+- package: swagger-test/client/developers
+- package: swagger-test/models
